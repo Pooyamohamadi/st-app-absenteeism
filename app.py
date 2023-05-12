@@ -18,7 +18,7 @@ def Input_Output():
        st.write(df)
        model = absenteeism_model('model' , 'scaler')
     
-       model.load_and_clean_data(data)
+       model.load_and_clean_data(df)
     
     result = ""
     if st.button("click here to predict"):
