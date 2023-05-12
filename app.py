@@ -18,7 +18,7 @@ def Input_Output():
        st.write(df)
        model = absenteeism_model('model' , 'scaler')
     
-       model.load_and_clean_data('absenteeism_new_data.csv')
+       model.load_and_clean_data('Absenteeism_new_data.csv')
     
     result = ""
     if st.button("click here to predict"):
